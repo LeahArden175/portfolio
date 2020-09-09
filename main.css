@@ -90,6 +90,11 @@ p2 {
   text-align:center;
 }
 
+.hrstyle {
+  border-top: 5px dashed rgb(91, 80, 116);;
+  width: 350px;
+  background-color:#fffdfb;
+}
 /*-----CONTACT ME-----*/
 
 h4 {
@@ -110,7 +115,7 @@ form label {
 
 textarea {
   display: block;
-  color: blue;
+  color: rgb(15, 15, 32);
   margin: auto;
   width: 200px;
   resize: none;
