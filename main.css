@@ -80,6 +80,8 @@ ul {
   color: rgb(77, 121, 106);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  list-style: none;
+  text-align: center;
 }
 
 p2 {
