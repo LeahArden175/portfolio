@@ -73,7 +73,7 @@ main p {
 
 ul {
   color: rgb(77, 121, 106);
-  font-family: monospace;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   list-style: none;
   text-align: center;
@@ -94,6 +94,24 @@ p2 {
 }*/
 /*-----CONTACT ME-----*/
 
+.contact {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: ;
+}
+
+.contact .rightContainer {
+
+}
+
+.contact .rightContainer .icon {
+
+}
+
+.icon{
+  
+}
 h4 {
   color: rgb(143, 82, 82);
   font-family: modak;
