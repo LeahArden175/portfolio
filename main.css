@@ -61,16 +61,6 @@ header nav ul li a{
 
 /*-----MAIN-----*/
 
-main h2 {
-  color: rgb(143, 82, 82);
-  text-align: center;
-  font-family: modak;
-  font-size: 40px;
-  letter-spacing: 3px;
-  padding-top: 30px;
-  padding-bottom: 15px;
-}
-
 
 main p {
   color:rgb(77, 121, 106);
