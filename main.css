@@ -101,17 +101,6 @@ p2 {
   align-items: ;
 }
 
-.contact .rightContainer {
-
-}
-
-.contact .rightContainer .icon {
-
-}
-
-.icon{
-  
-}
 h4 {
   color: rgb(143, 82, 82);
   font-family: modak;
@@ -121,7 +110,15 @@ h4 {
   letter-spacing:2px;
   margin: auto;
 }
+h6 {  color: rgb(43, 25, 25);
+  font-family: modak;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing:3px;
+  margin: auto;
 
+}
 form label {
   display: block;
   text-align: center;
