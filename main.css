@@ -6,14 +6,20 @@
   box-sizing:border-box;
 }
 
-header{
-    background-color:rgb(255, 208, 196);
-    margin-top: -10px;
-}
+/*header{
+  background-color:rgb(255, 208, 196);
+  width: 100%;
+}*/
 
+.header{
+  background-color:rgb(255, 208, 196);
+  width: 100%;
+}
+/*
 body {
 background-image:url(images/portfolioBG.png);
 }
+*/
 
 footer{
   background-color: rgb(255, 208, 196);
@@ -74,9 +80,9 @@ main p {
 ul {
   color: rgb(77, 121, 106);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
   list-style: none;
   text-align: center;
+  margin: auto;
 }
 
 p2 {
