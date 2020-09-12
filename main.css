@@ -162,7 +162,6 @@ textarea {
   display: block;
   color: rgb(15, 15, 32);
   margin: auto;
-  width: 75%;
   resize: none;
 }
 
@@ -177,8 +176,15 @@ textarea {
   align-items: center;
 }
 
+.centerp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .shrink{
-  width: 20%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 /*-----ARTICLE-----*/
@@ -247,7 +253,7 @@ footer p{
 /*-----GROUPS AND ITEMS (DESKTOP)-----*/
 
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 800px) {
   section {
       padding: 0 10%;
   }
@@ -256,14 +262,55 @@ footer p{
       flex-direction: row;
   }
 
-h3{
+  h3{
   font-size: 29px;
 }
 
   header{
+    display: flex;
     margin-top: -10px;  
+    justify-content: space-between;
   }
+  
   header nav{
-    margin-top: 14px;
+    padding: 10px;
+  }
+  
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 2px;
+    padding:0; 
+  }
+  
+  
+  header nav ul li{
+    padding: 5px 5px;
+  }
+  
+  header nav ul li a{
+    justify-self: center;
+    color: rgb(86, 96, 97);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .centerp{
+    margin-top: 30%;
+  }
+
+  main p{
+    font-size: 20px;
+  }
+
+  .shrink {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    margin-left: 20%;
+    width: 20%;
   }
 } 

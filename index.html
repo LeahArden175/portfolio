@@ -19,6 +19,7 @@
                 <h1>Leah Arden</h1>
                 <h2>Full Stack Developer</h2>
             </div>
+            <div class = "item">
             <nav>
                 <ul id="menu">
                     <li><a href="#home">Home</a></li>
@@ -27,19 +28,20 @@
 				    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
 
         <main>
             <section id="home">
                 <h3>Home</h3>
                 <div class="group">
-                    <div class="item">
+                    <div class="item item-double">
                         <img class="img" src="images/leahAtLongwood.png" alt ="Picture of Leah Arden">
                     </div>
                     <div class="item">
                     <!--INTRO-->
-                        <p>I am a Philadelphia based full stack developer who is dedicated to writing clear and efficient code...</p>
-                        <p>so you don't have to.</p>
+                        <p class="centerp">I am a Philadelphia based full stack developer who is dedicated to writing clear and efficient code...</p>
+                        <p class ="centerp">so you don't have to.</p>
                     </div>
                 </div>  
             </section>
@@ -75,7 +77,7 @@
                         <div class="group">
                             <div class="item">
                                 <img class="img" src="images/placeholder.jpg" alt="placeholder picture">
-                                <h3>Plant Watering App</h3>
+                                <h3>Plant App</h3>
                                 <h4>This is filler. App explanation will go here</h4>
                                 <p>
                                     <a class="linktext" href="https://github.com/LeahArden175">Code link</a>
@@ -132,32 +134,27 @@
                 <section id="contact">
                     <h3>Contact</h3>
                     <div class="group">
-                        <div class="item">  
-                            <p>
-                                <a href="https://github.com/LeahArden175">
-                                <img class="shrink" src="images/github.png" alt = "GitHub" ></a>
-                            </p>
-                            <p>
-                                <a href="https://www.linkedin.com/in/leah-arden/">
-                                <img class ="shrink" src="images/linkedin.png" alt="LinkedIn" ></a>
-                            </p>   
+                        <div class="item"> 
+                            <a href="https://github.com/LeahArden175">
+                            <img class="shrink" src="images/github.png" alt = "GitHub" ></a>
+                            <a href="https://www.linkedin.com/in/leah-arden/">
+                            <img class ="shrink" src="images/linkedin.png" alt="LinkedIn" ></a>   
                         </div>
 
+                        <div class="item">
                         <form action = "https://formspree.io/xoqkgyqz"
                             method= "POST">
-                            <div class="item">
+
                                 <h6>Reach me at</h6> 
                                 <h6>leaharden175@gmail.com!</h6>
                                 <label for="user-name">First name:</label>
                                 <textarea 
-                                     id="user-name" 
+                                    id="user-name" 
                                     name="name"
                                     placeholder ="Jane Doe" 
                                     required>
                                 </textarea>
-                            </div>    
-                    
-                            <div class="item">
+
                                 <label for="email">Email:</label>
                                 <textarea 
                                       id="email"
@@ -165,9 +162,8 @@
                                     placeholder ="jdoe@email.com" 
                                     required>
                                 </textarea>
-                            </div>  
-                        
-                            <div class="item">
+   
+                    
                                 <label for="your-message">Your message:</label>
                                 <textarea 
                                     class="message"
@@ -176,10 +172,10 @@
                                     placeholder ="Write your message here!" 
                                      required>
                                 </textarea>
-                            </div>
-                             <div class="item center">
+                            <section class="center">
                                 <button type="submit">Submit</button>
                                 <button type="reset">Reset</button>
+                            </section>    
                              </div>
                           </form>      
                     </div>
