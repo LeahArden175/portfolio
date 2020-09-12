@@ -3,7 +3,6 @@
 /*-----GENERAL----*/
 
 html {
-  position:fixed;
   top:0;
   bottom:0;
   left:0;
@@ -64,9 +63,8 @@ header nav ul li a{
   justify-self: center;
   color: rgb(86, 96, 97);
   text-decoration: none;
-  margin: 0 20px 0 0;
+  margin: 0 30px 0 0;
   font-family: monospace;
-  padding-right: 5px;
 }
 
 
@@ -78,7 +76,7 @@ main p {
   color:rgb(77, 121, 106);
   font-weight:bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -87,9 +85,9 @@ ul {
   color: rgb(77, 121, 106);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   list-style: none;
-  text-align: center;
-  margin: auto;
+  font-size: 15px;;
 }
+
 
 p2 {
   color:rgb(77, 121, 106);
@@ -99,11 +97,14 @@ p2 {
   text-align:center;
 }
 
-/*.hrstyle {
-  border-top: 5px solid rgb(91, 80, 116);;
-  width: 350px;
-  background-color:#fffdfb;
-}*/
+.languages{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin-left: 33%;
+}
+
 /*-----CONTACT ME-----*/
 
 .contact {
@@ -118,15 +119,15 @@ h4 {
   font-family: modak;
   font-weight: lighter;
   text-align: center;
-  font-size: 40px;
-  letter-spacing:2px;
+  font-size: 25px;
+  letter-spacing: 2px;
   margin: auto;
 }
 h6 {  color: rgb(43, 25, 25);
   font-family: modak;
   font-weight: lighter;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing:3px;
   margin: auto;
 
@@ -142,12 +143,12 @@ textarea {
   display: block;
   color: rgb(15, 15, 32);
   margin: auto;
-  width: 200px;
+  width: 150px;
   resize: none;
 }
 
 .message{
-  width: 100%;
+  width: 80%;
   height: 200px;
 }
 
@@ -177,6 +178,7 @@ h5 {
   text-align: center;
   font-weight: lighter;
   font-size: 30px;
+  margin-bottom: 12px;
 }
 
 /*-----FOOTER-----*/
