@@ -29,6 +29,8 @@ footer{
 }
 
 /*------HEADER---------*/
+
+
 header h1 {
   font-size: 56px;
   font-weight: lighter;
@@ -62,6 +64,7 @@ header nav ul {
   padding:0; 
 }
 
+
 header nav ul li{
   padding: 5px 5px;
 }
@@ -71,7 +74,6 @@ header nav ul li a{
   color: rgb(86, 96, 97);
   text-decoration: none;
   font-family: monospace;
-  padding: 10px 5px;
 }
 
 
@@ -146,7 +148,6 @@ h6 {  color: rgb(43, 25, 25);
   font-weight: lighter;
   text-align: center;
   font-size: 20px;
-  letter-spacing:3px;
   margin: auto;
 
 }
@@ -161,7 +162,7 @@ textarea {
   display: block;
   color: rgb(15, 15, 32);
   margin: auto;
-  width: 150px;
+  width: 75%;
   resize: none;
 }
 
@@ -177,7 +178,7 @@ textarea {
 }
 
 .shrink{
-  width: 100px;
+  width: 20%;
 }
 
 /*-----ARTICLE-----*/
@@ -212,6 +213,8 @@ footer p{
 
 
 /*---BORDER AND SIZE OF IMG----*/
+
+
 .img {	
   display: flex;
   border-radius: 20px;
@@ -221,19 +224,13 @@ footer p{
 }
 
 /*-----GROUPS AND ITEMS (MOBILE FIRST)-----*/
+
+
 .group {
   display: flex;
   flex-direction: column;
   margin: auto;
   align-content: center;
-}
-
-.group
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  align-content: center;
-  background-color: rgb(255, 208, 196);
 }
 
 .item {
@@ -248,6 +245,8 @@ footer p{
 
 
 /*-----GROUPS AND ITEMS (DESKTOP)-----*/
+
+
 @media all and (min-width: 600px) {
   section {
       padding: 0 10%;
@@ -267,8 +266,6 @@ h3{
   header nav{
     margin-top: 14px;
   }
+} 
 
-  .hrstyle {
-    style: none;
-  }
-}
+*/
