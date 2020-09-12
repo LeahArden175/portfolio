@@ -1,5 +1,3 @@
-
-
 /*-----GENERAL----*/
 
 html {
@@ -98,13 +96,24 @@ p2 {
 }
 
 .languages{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: modak;
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  margin-left: 33%;
+  margin-left: 30%;
+  font-weight: lighter;
 }
 
+a:hover{
+  color:rgb(148, 233, 205);
+}
+
+.linktext{
+  font-family: modak;
+  text-decoration: none;
+  color:rgb(77, 121, 106);
+  font-size: 20px;
+}
 /*-----CONTACT ME-----*/
 
 .contact {
@@ -239,18 +248,15 @@ footer p{
       flex-direction: row;
   }
 
-  .group2{
-    flex-direction: row;
-  }
+h3{
+  font-size: 29px;
+}
+
   header{
     margin-top: -10px;  
   }
   header nav{
     margin-top: 14px;
-  }
-
-  header nav ul li a:hover{
-    color: rgb(255, 248, 248); 
   }
 
   .hrstyle {
