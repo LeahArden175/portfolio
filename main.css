@@ -2,24 +2,29 @@
 
 /*-----GENERAL----*/
 
-*{
-  box-sizing:border-box;
+html {
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
 }
-
-/*header{
+/*
+header{
   background-color:rgb(255, 208, 196);
-  width: 100%;
-}*/
+}
+*/
 
 .header{
   background-color:rgb(255, 208, 196);
   width: 100%;
+  margin-top: -10px;
 }
-/*
+
 body {
 background-image:url(images/portfolioBG.png);
 }
-*/
+
 
 footer{
   background-color: rgb(255, 208, 196);
@@ -28,7 +33,7 @@ footer{
 
 /*------HEADER---------*/
 header h1 {
-  font-size: 75px;
+  font-size: 56px;
   font-weight: lighter;
   font-family: modak;
   text-align: center;
@@ -56,11 +61,12 @@ header nav ul {
 }
 
 header nav ul li a{
+  justify-self: center;
   color: rgb(86, 96, 97);
   text-decoration: none;
   margin: 0 20px 0 0;
   font-family: monospace;
-  padding-left: 20px;
+  padding-right: 5px;
 }
 
 
@@ -104,7 +110,7 @@ p2 {
   display:flex;
   flex-direction: row;
   justify-content: center;
-  align-items: ;
+  align-items: center;
 }
 
 h4 {
@@ -120,7 +126,7 @@ h6 {  color: rgb(43, 25, 25);
   font-family: modak;
   font-weight: lighter;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing:3px;
   margin: auto;
 
@@ -187,10 +193,11 @@ footer p{
 
 /*---BORDER AND SIZE OF IMG----*/
 .img {	
+  display: flex;
   border-radius: 20px;
   border: 5px groove #633e03;
-  width: 100%;
-  justify-content: center;
+  width: 90%;
+  margin: auto;
 }
 
 /*-----GROUPS AND ITEMS (MOBILE FIRST)-----*/
@@ -201,7 +208,7 @@ footer p{
   align-content: center;
 }
 
-.group2{
+.group
   display: flex;
   flex-direction: column;
   margin: auto;
