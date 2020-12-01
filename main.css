@@ -226,6 +226,7 @@ footer p{
   border: 5px groove #633e03;
   width: 90%;
   margin: auto;
+  height: 300px;
 }
 
 /*-----GROUPS AND ITEMS (MOBILE FIRST)-----*/
@@ -263,6 +264,15 @@ footer p{
 
   h3{
   font-size: 29px;
+}
+
+.img {	
+  display: flex;
+  border-radius: 20px;
+  border: 5px groove #633e03;
+  width: 90%;
+  margin: auto;
+  height: 250px;
 }
 
   header{
