@@ -163,6 +163,13 @@ textarea {
   resize: none;
 }
 
+input {
+  display: block;
+  color: rgb(15, 15, 32);
+  margin: auto;
+  resize: none;
+}
+
 .message{
   width: 80%;
   height: 200px;

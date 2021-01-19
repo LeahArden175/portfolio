@@ -1,200 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset='utf-8'>
-        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-        <title>Leah Arden's Portfolio Using Flexbox</title>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='main.css'/>
-        <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-        <script src='main.js'></script>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Leah Arden's Portfolio Using Flexbox</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modak&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+  </head>
 
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="item item-double">
+        <h1>Leah Arden</h1>
+        <h2>Full Stack Developer</h2>
+      </div>
+      <div class="item">
+        <nav>
+          <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-    <body>
-                    <!--HEADER-->
-        <header class="header">
-            <div class="item item-double">
-                <h1>Leah Arden</h1>
-                <h2>Full Stack Developer</h2>
+    <main>
+      <section id="home">
+        <h3>Home</h3>
+        <div class="group">
+          <div class="item item-double">
+            <img
+              class="personal-img"
+              src="images/leahAtLongwood.png"
+              alt="Picture of Leah Arden"
+            />
+          </div>
+          <div class="item">
+            <!--INTRO-->
+            <div class="app-item">
+              <p class="centerp">
+                I am a Philadelphia based full stack developer who is dedicated
+                to writing clear and efficient code...
+              </p>
+              <p class="centerp">so you don't have to.</p>
             </div>
-            <div class = "item">
-            <nav>
-                <ul id="menu">
-                    <li><a href="#home">Home</a></li>
-				    <li><a href="#about">About</a></li>
-				    <li><a href="#portfolio">Portfolio</a></li>
-				    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+          </div>
+        </div>
+      </section>
+
+      <!--ABOUT ME-->
+      <section id="about">
+        <h3>About Me</h3>
+        <div class="group">
+          <div class="app-item">
+            <p>
+              I am here to help you with all kinds of services. Whether it be
+              front or backend, websites or apps, I am here for whatever you may
+              need.
+            </p>
+          </div>
+          <hr class="hrstyle" />
+          <div class="app-item">
+            <p>
+              I am a firm believer in team work. I would love to join a
+              dedicated, cooperative team of programmers.
+            </p>
+          </div>
+          <hr class="hrstyle" />
+          <div class="app-item">
+            <p>
+              Outside of coding I am an avid house plant collector! I have over
+              50 types of house plants and love reading about horticulture.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--PROJECT SECTIONS-->
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+        <article>
+          <div class="group">
+            <div class="app-item">
+              <img
+                class="img"
+                src="images/plant-dex.png"
+                alt="placeholder picture"
+              />
+              <h3>Plant App</h3>
+              <div class="app-info-div">
+                <h4>
+                  This app allows users to create an account, log their
+                  houseplants, and create a watering schedule.
+                </h4>
+                </div>
+                <div class="app-info-div">
+                <h4>
+                  I created this app to help me keep a conisistent watering
+                  schedule with my houseplants.
+                </h4>
+              </div>
+              <div class="linktext-div">
+                <p>
+                  <a
+                    class="linktext"
+                    href="https://github.com/LeahArden175/plantdex-client.git"
+                    >Front End</a
+                  >
+                  |
+                  <a
+                    class="linktext"
+                    href="https://github.com/LeahArden175/plant-dex-server.git"
+                    >Back End</a
+                  >
+                </p>
+                <p>
+                  <a class="linktext" href="https://plant-dex.vercel.app/"
+                    >Live App</a
+                  >
+                </p>
+              </div>
+              <h5>This was made using:</h5>
+              <ul class="languages">
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>PostreSQL</li>
+              </ul>
             </div>
-        </header>
+            <div class="app-item">
+              <img
+                class="img"
+                src="images/Star-wars.png"
+                alt="placeholder picture"
+              />
+              <h3>Star Wars Search</h3>
+              <div class="app-info-div">
+                <h4>
+                  This app uses a Star Wars API to let users search for
+                  characters, ships, and more in the Star Wars universe
+                </h4>
+                </div>
+                <div class="app-info-div">
+                <h4>I created this to gain a deeper understanding of APIs.</h4>
+              </div>
+              <div class="linktext-div">
+                <p>
+                  <a
+                    class="linktext"
+                    href="https://github.com/LeahArden175/swapi.git"
+                    >Code link</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="linktext"
+                    href="https://star-wars-search-alpha.vercel.app/"
+                    >Live App</a
+                  >
+                </p>
+              </div>
+              <h5>This was made using:</h5>
+              <ul class="languages">
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>React</li>
+              </ul>
+            </div>
+            <div class="app-item">
+              <img
+                class="img"
+                src="images/bookmarks.png"
+                alt="placeholder picture"
+              />
+              <h3>Bookmarks Keeper</h3>
+              <div class="app-info-div">
+                <h4>This app allows users to add bookmarks and rate them.</h4>
+              </div>
+                <div class="app-info-div">
+                <h4>
+                  I created this app when I was first learning Javascript to
+                  gain a better understanding.
+                </h4>
+              </div>
+              <div class="linktext-div">
+                <p>
+                  <a
+                    class="linktext"
+                    href="https://github.com/thinkful-ei-shark/LeahArden-bookmarks-app.git"
+                    >Code link</a
+                  >
+                </p>
+                <p>
+                  <a
+                    class="linktext"
+                    href="https://thinkful-ei-shark.github.io/LeahArden-bookmarks-app/"
+                    >Live App</a
+                  >
+                </p>
+              </div>
+              <h5>This was made using:</h5>
+              <ul class="languages">
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!--CONTACT ME-->
 
-        <main>
-            <section id="home">
-                <h3>Home</h3>
-                <div class="group">
-                    <div class="item item-double">
-                        <img class="personal-img" src="images/leahAtLongwood.png" alt ="Picture of Leah Arden">
-                    </div>
-                    <div class="item">
-                    <!--INTRO-->
-                    <div class="app-item">
-                        <p class="centerp">I am a Philadelphia based full stack developer who is dedicated to writing clear and efficient code...</p>
-                        <p class ="centerp">so you don't have to.</p>
-                    </div>
-                    </div>
-                </div>  
-            </section>
+      <section id="contact">
+        <h3>Contact</h3>
+        <div class="group">
+          <div class="item">
+            <a href="https://github.com/LeahArden175">
+              <img class="shrink" src="images/github.png" alt="GitHub"
+            /></a>
+            <a href="https://www.linkedin.com/in/leah-arden/">
+              <img class="shrink" src="images/linkedin.png" alt="LinkedIn"
+            /></a>
+          </div>
 
-                    <!--ABOUT ME-->
-            <section id="about">
-                <h3>About Me</h3>
-                    <div class="group">
-                        <div class="app-item">
-                            <p>I am here to help you with all kinds of services. Whether it be front or backend, websites or apps, I am here for whatever you may need.</p>
-                        </div>
-                        <hr class="hrstyle">
-                        <div class="app-item">
-                            <p>I am a firm believer in team work. I would love to join a dedicated, cooperative team of programmers.</p>
-                        </div>
-                        <hr class="hrstyle">
-                        <div class="app-item">
-                            <p>Outside of coding I am an avid house plant collector! I have over 50 types of house plants and love reading about horticulture.</p>
-                        </div>
-                    </div>
-                </section>
-                    <!--PROJECT SECTIONS-->
-                <section id="portfolio">
-                    <h3>Portfolio</h3>
-                    <article>
-                        <div class="group">
-                            <div class="app-item">
-                                <img class="img" src="images/plant-dex.png" alt="placeholder picture">
-                                <h3>Plant App</h3>
-                                <div class='app-info-div'>
-                                <h4>This app allows users to create an account, log their houseplants, and create a watering schedule.  </h4>
-                            </div>
-                                <div class='linktext-div'>
-                                <p>
-                                    <a class="linktext" href="https://github.com/LeahArden175/plantdex-client.git">Front End</a>
-                                    |
-                                    <a class="linktext" href="https://github.com/LeahArden175/plant-dex-server.git">Back End</a>
-                                </p>
-                                <p>
-                                    <a class="linktext" href="https://plant-dex.vercel.app/">Live App</a>
-                                </p>
-                            </div>
-                                <h5>This was made using:</h5>
-                                <ul class="languages">
-                                    <li>HTML</li>
-                                    <li>Javascript</li>
-                                    <li>CSS</li>
-                                    <li>React</li>
-                                    <li>Node.js</li>
-                                    <li>PostreSQL</li>
-                                </ul>
-                            </div>        
-                            <div class="app-item">
-                                <img class="img" src="images/Star-wars.png" alt="placeholder picture">
-                                <h3>Star Wars Search</h3>
-                                <div class='app-info-div'>
-                                <h4>This app uses a Star Wars API to let users search for characters, ships, and more in the Star Wars universe</h4>
-                            </div>
-                                <div class='linktext-div'>
-                                <p>
-                                    <a class="linktext" href="https://github.com/LeahArden175/swapi.git">Code link</a>
-                                </p>
-                                <p>
-                                    <a class="linktext" href="https://star-wars-search-alpha.vercel.app/">Live App</a>
-                                </p>
-                            </div>  
-                                <h5>This was made using:</h5>
-                                <ul class="languages">
-                                    <li>HTML</li>
-                                    <li>Javascript</li>
-                                    <li>CSS</li>
-                                    <li>React</li>
-                                </ul>
-                            </div> 
-                            <div class="app-item">
-                                <img class="img" src="images/bookmarks.png" alt="placeholder picture">
-                                <h3>Bookmarks Keeper</h3>
-                                <div class='app-info-div'>
-                                <h4>This app allows users to add bookmarks and rate them.</h4>
-                            </div>
-                                <div class='linktext-div'>
-                                <p>
-                                    <a class="linktext" href="https://github.com/thinkful-ei-shark/LeahArden-bookmarks-app.git">Code link</a>
-                                </p>
-                                <p>
-                                    <a class="linktext" href="https://thinkful-ei-shark.github.io/LeahArden-bookmarks-app/">Live App</a>
-                                </p>
-                            </div>
-                                <h5>This was made using:</h5>
-                                <ul class="languages">
-                                    <li>HTML</li>
-                                    <li>Javascript</li>
-                                    <li>CSS</li>
-                                </ul>
-                            </div> 
-                        </div>
-                    </article>        
-                </section>       
-                    <!--CONTACT ME-->
+          <div class="item">
+            <h6>Reach me at</h6>
+            <h6>leaharden175@gmail.com!</h6>
+            <form action="https://formspree.io/f/xoqkgyqz" method="POST">
+              <label for="user-name">First name:</label>
+              <textarea
+                id="user-name"
+                name="name"
+                placeholder="Jane Doe"
+                required
+              >
+              </textarea>
 
-                <section id="contact">
-                    <h3>Contact</h3>
-                    <div class="group">
-                        <div class="item"> 
-                            <a href="https://github.com/LeahArden175">
-                            <img class="shrink" src="images/github.png" alt = "GitHub" ></a>
-                            <a href="https://www.linkedin.com/in/leah-arden/">
-                            <img class ="shrink" src="images/linkedin.png" alt="LinkedIn" ></a>   
-                        </div>
+              <label for="email">Email:</label>
+              <input
+                type='text'
+                id="email"
+                name="_replyto"
+                placeholder="jdoe@email.com"
+                required
+              >
+              </input>
 
-                        <div class="item">
-                            <h6>Reach me at</h6> 
-                            <h6>leaharden175@gmail.com!</h6> 
-                                <form action = "https://formspree.io/xoqkgyqz" method= "POST">  
-                                    <label for="user-name">First name:</label>
-                                    <textarea 
-                                        id="user-name" 
-                                        name="name"
-                                        placeholder ="Jane Doe" 
-                                        required>
-                                    </textarea>
-
-                                    <label for="email">Email:</label>
-                                    <textarea 
-                                        id="email"
-                                        name="email"
-                                        placeholder ="jdoe@email.com" 
-                                        required>
-                                    </textarea>
-   
-                    
-                                    <label for="your-message">Your message:</label>
-                                    <textarea
-                                        class="message"
-                                        id="your-message" 
-                                        name="your-message"
-                                        placeholder ="Write your message here!" 
-                                        required>
-                                    </textarea>
-                                    <p class="center">
-                                        <button type="submit">Submit</button>
-                                        <button type="reset">Reset</button>
-                                    </p>  
-                                </form>
-                        </div>   
-                    </div>
-             </section>        
-        </main>
-                    <!--FOOTER-->
-         <footer>
-            <p>FILLER INFO</p>
-        </footer>
-    </body>
+              <label for="your-message">Your message:</label>
+              <textarea
+                class="message"
+                id="your-message"
+                name="your-message"
+                placeholder="Write your message here!"
+                required
+              >
+              </textarea>
+              <p class="center">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      <p>FILLER INFO</p>
+    </footer>
+  </body>
 </html>
