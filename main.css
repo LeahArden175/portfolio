@@ -277,13 +277,20 @@ footer p{
 /*-----GROUPS AND ITEMS (DESKTOP)-----*/
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 830px) {
   section {
-      padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
   }
 
   .group {
+    display: flex;
       flex-direction: row;
+      width: 100%;
+      margin: auto;
   }
 
   h3{
@@ -292,6 +299,8 @@ footer p{
 
 .img {	
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
   border: 5px groove #633e03;
   width: 90%;
@@ -301,10 +310,11 @@ footer p{
 
 .personal-img {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
   border: 5px groove #633e03;
-  width: 90%;
-  margin: auto;
+  width: 100%;
 }
 
   header{
@@ -363,8 +373,7 @@ footer p{
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-bottom: 30px;
     width: 100%;
-    height: 150px;
+    height: 300px;
   }
 } 
